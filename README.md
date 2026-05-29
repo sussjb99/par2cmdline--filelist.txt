@@ -116,6 +116,7 @@ The command line parameters for par2cmdline are as follow:
     -S<n>    : Skip leaway (distance +/- from expected block position)
     -B<path> : Set the basepath to use as reference for the datafiles
     --       : Treat all following arguments as filenames
+    @list.txt: Utilizes a text file to specify the list the files to process.
 
 If you wish to create PAR2 files for a single source file, you may leave out the name of the PAR2 file from the command line. par2cmdline will then assume that you wish to base the filenames for the PAR2 files on the name of the source file.
 
